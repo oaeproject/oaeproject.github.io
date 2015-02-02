@@ -7,6 +7,8 @@ We use nagios extensively to run various checks. Among others we check:
  * Elasticsearch is running
  * etc..
 
+# Hilary error counts
+
 We also use Nagios to monitor the Hilary error counts. The error count is
 published to Redis (in the hash `oae-telemetry:counts:data` with key `logger:error.count`).
 If this value goes past 10, Nagios will complain until it's been reset. Resetting
