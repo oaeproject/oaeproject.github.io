@@ -294,32 +294,32 @@ footer .icons a {
     margin-top: 50px;
     margin-bottom: 20px;
 }
-.row-location ul {
+ul.logo-blocks {
     list-style: none;
     margin-top: 10px;
     padding: 0;
 }
 
-.row-location ul li img {
-    max-height: 49px;
-    max-width: 90%;
-}
-
-.row-location ul li {
+ul.logo-blocks li {
     float: left;
     list-style-type: none;
     width: 25%;
     height: 187px;
 }
 
-.row-location ul li .logo {
+ul.logo-blocks li img {
+    max-height: 49px;
+    max-width: 90%;
+}
+
+ul.logo-blocks li .logo {
     background-color: #E8E8E4;
     line-height: 187px;
     height: 100%;
     margin-right: 5px;
 }
 
-.row-location ul li .logo:hover {
+ul.logo-blocks li .logo:hover {
     background-color: #dddddd;
     cursor: pointer;
 }
@@ -406,6 +406,12 @@ footer .icons a {
 
 .page-join .inset {
     margin-left: 25px;
+}
+
+.page-join ul.logo-blocks li {
+    margin-top: 5px;
+    text-align: center;
+    width: 50%;
 }
 
 .page-join button[type="submit"] {
@@ -513,6 +519,10 @@ footer .icons a {
     margin-bottom: 20px;
 }
 
+.page-blog h4 {
+    margin-top: 0;
+}
+
 .page-blog .btn-oae {
     margin-top: 20px;
     width: 100%;
@@ -523,6 +533,10 @@ footer .icons a {
 
 .page-contact label {
     line-height: 1.42857143;
+}
+
+.page-contact h4 {
+    margin-top: 0;
 }
 
 .page-contact .btn-oae {
