@@ -15,4 +15,8 @@ excerpt_separator: <!--more-->
 markdown: kramdown
 
 defaults:
-  default_banner: /assets/img/banners/why-oae-matters.png
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      banner: /assets/img/banners/why-oae-matters.png

@@ -227,16 +227,13 @@ footer .logo {
     padding-right: 20px;
 }
 
-footer .copyright {
-    color: #999999;
-    font-size: 11px;
-}
-
 footer .top-row {
     border-bottom: 1px solid #333333;
     margin: 0 30px;
 }
 footer .bottom-row {
+    color: #999999;
+    font-size: 11px;
     margin: 0 30px;
 }
 
@@ -251,6 +248,21 @@ footer .icons {
 
 footer .icons a {
     margin-left: 40px;
+}
+
+
+@media (max-width: 767px) {
+    footer div.col-xs-12 {
+        margin-top: 10px;
+        text-align: left;
+    }
+    footer ul li {
+        display: block;
+        padding: 10px 0;
+    }
+    footer .icons a {
+        margin-left: 0;
+    }
 }
 
 
@@ -512,6 +524,10 @@ footer .icons a {
 
 .blogpost-short {
     margin-bottom: 50px;
+}
+
+.blogpost-short .banner {
+    margin-bottom: 20px;
 }
 
 .page-blog .btn-oae {
