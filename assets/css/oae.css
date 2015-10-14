@@ -512,3 +512,8 @@ footer .icons a {
 .page-contact label {
     line-height: 1.42857143;
 }
+
+.page-contact .btn-oae {
+    margin-top: 20px;
+    width: 100%;
+}
