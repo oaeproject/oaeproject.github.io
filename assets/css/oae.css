@@ -1,0 +1,503 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    color: #2997D5;
+}
+
+.content h2 {
+    margin-bottom: 50px;
+}
+
+.content h3 {
+    background-color: #2B97D5;
+    border: 0px solid #2B97D5;
+    color: #FFF;
+    border-radius: 50px 0px 0px 50px;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 0px 0px 50px;
+    padding: 15px 25px;
+    text-align: left;
+}
+
+.content div>h3 {
+    margin-top: 0;
+}
+
+.content h3.darkblue {
+    background-color: #0A6096;
+    border: 0px solid #0A6096;
+    margin-top: 40px;
+}
+
+.content h3.gray {
+    background-color: #E8E8E4;
+    border: 0px solid #E8E8E4;
+    color: #000000;
+}
+
+.content h3.black {
+    background-color: #000000;
+    border: 0px solid #000000;
+    margin-top: 40px;
+}
+
+.content h3 span {
+    margin-right: 10px;
+}
+
+.content h4 {
+    font-size: 24px;
+    line-height: 41px;
+}
+
+label {
+    color: #777777;
+    font-weight: normal;
+}
+
+.btn {
+    font-weight: 100;
+}
+
+.btn.btn-oae {
+    background-color: #2997D5;
+    border: 0;
+    color: #FFF;
+}
+
+.btn.btn-try {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 6px 50px;
+}
+
+header {
+    background-color: #2997D5;
+    background-image: url('/assets/img/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #FFF;
+    text-align: center;
+}
+
+
+nav.navbar {
+    background-color: transparent;
+    border: 0;
+    height: 130px;
+    padding: 30px 0;
+}
+
+nav.navbar.navbar-small {
+    height: 50px;
+    padding: 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+nav.navbar.navbar-fixed-top {
+    background-color: #2997D5;
+    background-image: url('/assets/img/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #FFF;
+}
+
+nav .navbar-nav > li > a {
+    color: #FFF;
+    line-height: 49px;
+}
+
+nav .navbar-nav > li > a:hover,
+nav .navbar-nav > li > a:focus,
+nav .navbar-nav > li > a:active {
+    background-color: transparent;
+    color: #333;
+}
+
+nav .navbar-brand img {
+    width: 94px;
+}
+nav.navbar-small .navbar-brand {
+    font-size: 13px;
+    color: #FFF;
+}
+nav.navbar-small .navbar-brand img {
+    display: inline;
+    margin-right: 15px;
+    width: 22px;
+}
+
+nav.navbar-small ul li a {
+    padding: 0 15px;
+}
+
+nav .navbar-toggle {
+    border-color: #FFF;
+}
+
+nav .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+nav .navbar-collapse.in {
+    background-color: #2997D5;
+}
+
+nav .navbar-collapse.in .btn.btn-try {
+    border: 0;
+}
+
+header .hero {
+    background-image: url('/assets/img/hero.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 440px;
+}
+
+header .hero h1 {
+    margin-top: 50px;
+}
+
+.content {
+    line-height: 26px;
+    max-width: 850px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.search-group {
+    position: relative;
+    width: 100%;
+}
+
+.search-group a {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: #2B97D5;
+    border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 31px;
+}
+
+footer {
+    background-color: #222222;
+    color: #FFF;
+    font-size: 13px;
+}
+
+footer .row {
+    padding: 40px 0px;
+}
+
+footer a {
+    color: #FFF;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+footer .logo {
+    padding-right: 20px;
+}
+
+footer .copyright {
+    color: #999999;
+    font-size: 11px;
+}
+
+footer .top-row {
+    border-bottom: 1px solid #333333;
+    margin: 0 30px;
+}
+footer .bottom-row {
+    margin: 0 30px;
+}
+
+
+footer .oae-logo {
+    max-width: 57px;
+}
+
+footer .icons {
+    text-align: right;
+}
+
+footer .icons a {
+    margin-left: 40px;
+}
+
+
+/* Home page */
+
+.page-home .content {
+    text-align: center
+}
+.page-home h2 {
+    margin: 30px 0;
+}
+
+.academics-working-with {
+    padding-top: 100px;
+}
+
+.page-home .row-location {
+    color: #777777;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.row-location ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.row-location ul li img {
+    max-height: 49px;
+    max-width: 90%;
+}
+
+.row-location ul li {
+    float: left;
+    list-style-type: none;
+    width: 25%;
+    height: 187px;
+}
+
+.row-location ul:hover li {
+    width: 20%;
+}
+.row-location ul li:hover {
+    width: 40%;
+}
+
+.row-location ul li .logo {
+    background-color: #E8E8E4;
+    line-height: 150px;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.row-location ul li:hover .logo {
+    background-color: #FFF;
+    line-height: 1;
+}
+
+.row-location ul li:hover .logo img {
+    margin-top: 20px;
+}
+
+.row-location ul li .quote {
+    text-align: center;
+    margin-top: 10px;
+}
+.row-location ul li .quote a, .row-location ul li .quote blockquote, .row-location ul li .quote cite, {
+    font-size: 13px;
+}
+
+.row-location ul li .quote a {
+    display: inline-block;
+}
+
+.row-location ul li .quote blockquote {
+    border-left: 0;
+    font-size: 13px;
+}
+.row-location ul li .quote blockquote cite::before {
+    content: " - ";
+}
+.row-location ul li .quote blockquote cite {
+    font-weight: bold;
+}
+
+.row-location ul li:hover .quote {
+    background-color: #FFF;
+    display: block;
+}
+
+.page-home .institution {
+    background-color: #E8E8E4;
+    padding: 50px 0;
+}
+
+.case-study .modal-dialog {
+    width: 95%;
+    max-width: 824px;
+}
+
+.case-study .modal-header {
+    border-bottom: 0;
+}
+
+.case-study .modal-header h4 {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 36px;
+    padding-top: 30px;
+}
+
+.case-study .modal-body {
+    padding: 10px 45px;
+    text-align: left;
+}
+
+.case-study .modal-body img {
+    margin-bottom: 10px;
+}
+
+.case-study .modal-body p {
+    line-height: 26px;
+}
+
+.case-study .modal-body blockquote {
+    border-left: 0;
+    color: #333;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 34px;
+}
+
+.case-study .modal-body blockquote cite::before {
+    content: " - ";
+}
+.case-study .modal-body blockquote cite {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.case-study .modal-body .btn-oae {
+    margin-top: 20px;
+    width: 220px;
+}
+
+
+/* Join page */
+
+.page-join .content ul {
+    padding-right: 50px;
+    margin-left: -15px;
+}
+
+.page-join .inset {
+    margin-left: 25px;
+}
+
+.page-join button[type="submit"] {
+    width: 100%;
+}
+
+/* About page */
+
+.page-about ul.sidebar {
+    list-style: none;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.page-about ul.sidebar li {
+    border-top: 1px solid #dddddd;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.page-about ul.sidebar li:first-child {
+    border: 0;
+}
+
+.page-about h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 0;
+    text-align: left;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 267px;
+    position: relative;
+}
+
+.banner a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.banner .metadata {
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    right: 0;
+    color: #FFFFFF;
+}
+
+.banner .metadata .title {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 34px;
+}
+
+.banner .metadata .author {
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+.banner .metadata .author .author-name {
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+.banner-attribution {
+    font-size: 11px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+
+/* Blog page */
+
+.blogpost-short {
+    margin-bottom: 50px;
+}
+
+.page-blog .btn-oae {
+    margin-top: 20px;
+    width: 100%;
+}
