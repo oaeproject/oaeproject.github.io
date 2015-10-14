@@ -502,6 +502,10 @@ ul.logo-blocks li .logo:hover {
     line-height: 22px;
     margin-top: 15px;
 }
+.banner .metadata .author img {
+    max-height: 37px;
+    max-width: 37px;
+}
 
 .banner .metadata .author .author-name {
     font-size: 13px;
