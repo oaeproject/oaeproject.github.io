@@ -411,6 +411,10 @@ footer .icons a {
     margin-left: -15px;
 }
 
+.page-join h4 {
+    padding-left: 25px;
+}
+
 .page-join .inset {
     margin-left: 25px;
 }
@@ -500,4 +504,11 @@ footer .icons a {
 .page-blog .btn-oae {
     margin-top: 20px;
     width: 100%;
+}
+
+
+/* Contact page */
+
+.page-contact label {
+    line-height: 1.42857143;
 }
