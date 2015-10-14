@@ -26,7 +26,7 @@ a {
     margin-bottom: 50px;
 }
 
-.content h3 {
+.content h3.rounded {
     background-color: #2B97D5;
     border: 0px solid #2B97D5;
     color: #FFF;
@@ -41,19 +41,19 @@ a {
     margin-top: 0;
 }
 
-.content h3.darkblue {
+.content h3.rounded.darkblue {
     background-color: #0A6096;
     border: 0px solid #0A6096;
     margin-top: 40px;
 }
 
-.content h3.black {
+.content h3.rounded.black {
     background-color: #000000;
     border: 0px solid #000000;
     margin-top: 40px;
 }
 
-.content h3 span {
+.content h3.rounded span {
     margin-right: 10px;
 }
 
