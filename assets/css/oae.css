@@ -414,6 +414,12 @@ ul.logo-blocks li .logo:hover {
     width: 50%;
 }
 
+@media (max-width: 767px) {
+    .page-join ul.logo-blocks li {
+        width: 100%;
+    }
+}
+
 .page-join button[type="submit"] {
     width: 100%;
 }
