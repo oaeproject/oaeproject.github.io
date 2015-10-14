@@ -47,12 +47,6 @@ a {
     margin-top: 40px;
 }
 
-.content h3.gray {
-    background-color: #E8E8E4;
-    border: 0px solid #E8E8E4;
-    color: #000000;
-}
-
 .content h3.black {
     background-color: #000000;
     border: 0px solid #000000;
@@ -427,18 +421,37 @@ footer .icons a {
 
 .page-about ul.sidebar {
     list-style: none;
-    margin-left: 20px;
     padding: 0;
 }
 
 .page-about ul.sidebar li {
     border-top: 1px solid #dddddd;
-    padding: 20px 0;
+    padding: 20px 30px;
     text-align: left;
+}
+
+.page-about ul.sidebar li a,
+.page-about ul.sidebar li a:hover {
+    text-decoration: none;
 }
 
 .page-about ul.sidebar li:first-child {
     border: 0;
+}
+
+.page-about ul.sidebar li.active + li {
+    border: 0;
+}
+
+.page-about ul.sidebar li.active {
+    background-color: #E8E8E4;
+    border: 0px solid #E8E8E4;
+    color: #000000;
+    border-radius: 50px 0px 0px 50px;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 0px 0px 50px;
+    padding: 20px 25px;
+    text-align: left;
 }
 
 .page-about h4 {

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Github repositories move"
+date:   2013-06-13 10:32:06
+author: Nicolaas Matthijs
+---
+<p>All of the Apereo OAE-related GitHub repositories have now been moved to the <a href="https://github.com/oaeproject" target="_blank"><em>oaeproject</em> GitHub organization</a>:</p><ul class="MailOutline"><li><a href="https://github.com/oaeproject/Hilary" target="_blank">Hilary</a> (back-end)</li><li><a href="https://github.com/oaeproject/3akai-ux" target="_blank">3akai-ux</a> (front-end)</li><li><a href="https://github.com/oaeproject/puppet-hilary" target="_blank">puppet-hilary</a> (puppet scripts)</li><li><a href="https://github.com/oaeproject/oae-widgetlibrary" target="_blank">oae-widgetlibrary</a></li><li><a href="https://github.com/oaeproject/ep_oae" target="_blank">ep_oae</a> (Etherpad plugin)</li><li><a href="https://github.com/oaeproject/SAMLParser" target="_blank">SAMLParser</a></li><li><a href="https://github.com/oaeproject/OAE-model-loader" target="_blank">OAE-model-loader</a></li><li><a href="https://github.com/oaeproject/OAE-Micro-Site" target="_blank">OAE-Micro-Site</a></li><li><a href="https://github.com/oaeproject/grunt-ver" target="_blank">grunt-ver</a></li><li><a href="https://github.com/oaeproject/puppet-nfs" target="_blank">puppet-nfs</a></li><li><a href="https://github.com/oaeproject/oae-nightly-stats" target="_blank">oae-nightly-stats</a></li><li><a href="https://github.com/oaeproject/node-oae-tsung" target="_blank">node-oae-tsung</a></li></ul>

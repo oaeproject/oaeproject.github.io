@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="row">
+  <h2 class="col-xs-12 text-center">
+      <a href="/blog" class="btn btn-default pull-left">Back to posts</a>
+      {{ page.title }}
+  </h2>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+      <a href="{{ page.url }}">
+        <div class="banner" style="background-image: url('/assets/img/banners/oae-cloud-hosting.png')">
+          <div class="metadata">
+            <div class="author">
+              <img src="/assets/img/authors/nicolaas.png" alt="Nicolaas" class="pull-left" />
+              <div class="author-name">
+                <div>By {{ page.author }}</div>
+                <div>{{ page.date | date: "%b %-d, %Y" }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <div class="banner-attribution">Sky and clouds by <a href="#">Wallpapers Garden</a></div>
+      {{ content }}
+  </div>
+</div>
