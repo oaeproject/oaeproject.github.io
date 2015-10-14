@@ -171,6 +171,7 @@ header .hero {
 
 header .hero h1 {
     margin-top: 50px;
+    padding: 0 5px;
 }
 
 .content {
@@ -302,56 +303,25 @@ footer .icons a {
     height: 187px;
 }
 
-.row-location ul:hover li {
-    width: 20%;
-}
-.row-location ul li:hover {
-    width: 40%;
-}
-
 .row-location ul li .logo {
     background-color: #E8E8E4;
-    line-height: 150px;
+    line-height: 187px;
     height: 100%;
     margin-right: 5px;
 }
 
-.row-location ul li:hover .logo {
-    background-color: #FFF;
-    line-height: 1;
+.row-location ul li .logo:hover {
+    background-color: #dddddd;
+    cursor: pointer;
+}
+@media (max-width: 767px) {
+    .row-location ul li {
+        margin-top: 10px;
+        width: 100%;
+    }
 }
 
-.row-location ul li:hover .logo img {
-    margin-top: 20px;
-}
 
-.row-location ul li .quote {
-    text-align: center;
-    margin-top: 10px;
-}
-.row-location ul li .quote a, .row-location ul li .quote blockquote, .row-location ul li .quote cite, {
-    font-size: 13px;
-}
-
-.row-location ul li .quote a {
-    display: inline-block;
-}
-
-.row-location ul li .quote blockquote {
-    border-left: 0;
-    font-size: 13px;
-}
-.row-location ul li .quote blockquote cite::before {
-    content: " - ";
-}
-.row-location ul li .quote blockquote cite {
-    font-weight: bold;
-}
-
-.row-location ul li:hover .quote {
-    background-color: #FFF;
-    display: block;
-}
 
 .page-home .institution {
     background-color: #E8E8E4;
@@ -375,8 +345,12 @@ footer .icons a {
 }
 
 .case-study .modal-body {
-    padding: 10px 45px;
+    padding: 10px 20px;
     text-align: left;
+}
+
+.case-study .modal-body .container-fluid {
+    padding: 0;
 }
 
 .case-study .modal-body img {
