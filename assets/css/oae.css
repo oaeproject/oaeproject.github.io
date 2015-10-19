@@ -292,6 +292,10 @@ footer .icons a {
     min-height: 200px;
 }
 
+.page-home .diagram-bottom-line-bottom .btn {
+    width: 100%;
+}
+
 .page-home .academics-working-with .btn {
     margin-top: 50px;
 }
