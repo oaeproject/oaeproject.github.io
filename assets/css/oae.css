@@ -1085,6 +1085,7 @@ ul.as-selections li.as-selection-item.as-ghost-item a.as-ghost-add i:hover {
     display: none;
     line-height: 38px;
     padding-right: 80px;
+    text-align: left;
     width: 100%;
 }
 
