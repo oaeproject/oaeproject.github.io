@@ -37,6 +37,17 @@ label {
     color: #FFF;
 }
 
+.btn.btn-default {
+    color: rgb(51, 51, 51);
+    border-color: rgb(201, 201, 201);
+    background-image: -webkit-linear-gradient(270deg, white 0%, rgb(232, 232, 228) 100%);
+    background-image: linear-gradient(180deg, white 0%, rgb(232, 232, 228) 100%);
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-color: rgb(229, 233, 232);
+}
+
 .btn.btn-try {
     background-color: transparent;
     border: 1px solid #FFF;
