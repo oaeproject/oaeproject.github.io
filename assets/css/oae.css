@@ -132,10 +132,10 @@ nav .navbar-collapse.in .btn.btn-try {
 }
 
 header .hero {
-    background-image: url('/assets/img/hero.png');
+    background-image: url('/assets/img/hero-big.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    min-height: 440px;
+    min-height: 750px;
 }
 
 header .hero h1 {
