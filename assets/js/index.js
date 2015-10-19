@@ -29,7 +29,21 @@
       '{{/if}}',
       '<div class="oae-threedots">{{>tenant.displayName}}</div>'].join('\n'));
 
+    $.templates('no-results', [
+        '<div class="signup-as-no-results">',
+            '<p>...is not already part of the OAE network, what would you like to do?</p>',
+            '<a id="signup-as-no-results-try-guest" target="_blank" class="btn btn-oae">Try the OAE as a guest</a>',
+            '<div id="signup-options-divider-horizontal" class="oae-hr">',
+                '<span>or</span>',
+            '</div>',
+            '<a id="signup-as-no-results-join" class="btn btn-oae">Get your institution on the network for FREE</a>',
+        '</div>'
+        ].join('\n'));
 
+
+    /**
+     * Set up the auto suggest for finding an institution
+     */
     var setupAutoSuggest = function() {
 
         $('#institution-search-field').autoSuggest('https://network.unity.ac/api/search/tenants', {
@@ -54,28 +68,6 @@
                 return $el;
             },
             'selectionAdded': function(el) {
-                var $elem = $(el);
-
-                // Wrap the element text in a 'oae-threedots' span element to prevent overflowing
-                $elem.contents().filter(function() {
-                    return this.nodeType === 3;
-                }).wrapAll('<span class="pull-left oae-threedots" />');
-
-                var originalData = $elem.data('originalData');
-                if (originalData.resourceType) {
-                    // Prepend a thumbnail to the item to add to the list
-                    var $thumbnail = $('<div>').addClass('oae-thumbnail fa fa-oae-' + originalData.resourceType);
-                    if (originalData.thumbnailUrl) {
-                        $thumbnail.append($('<div>')
-                            .css('background-image', 'url("' + originalData.thumbnailUrl + '")')
-                            .attr('role', 'img')
-                            .attr('aria-label', security().encodeForHTMLAttribute(originalData.displayName))
-                        );
-                    }
-                    $elem.prepend($thumbnail);
-                }
-
-
                 // When a selection is added by choosing a tenant, we don't add
                 // an item to the auto-suggest selection, instead we redirect
                 // to the equivalent page on that tenant
@@ -104,6 +96,14 @@
                 toggleSignupOptions(false);
 
                 $('#signup-as-go > button').focus();
+            },
+            'showResultListWhenNoMatch': true,
+            resultsComplete: function() {
+                var $noResultsMessage = $('.as-results ul.as-list .as-message');
+                if ($noResultsMessage.text() === 'No Results Found') {
+                    var html = $.templates['no-results'].render();
+                    $noResultsMessage.html(html)
+                }
             }
         });
 
@@ -131,8 +131,15 @@
             window.location = 'https://' + $('#signup-as-selection').data().tenant.host;
         });
 
-        // Show the container now that everything is initialized
-        $('#signup-institution-container').show();
+        // Bind the listeners for the "no results" buttons
+        $('#signup-as-no-results-try-guest').on('click', function() {
+            window.location = 'https://network.unity.ac';
+            return false;
+        });
+        $('#signup-as-no-results-join').on('click', function() {
+            window.location = '/join';
+            return false;
+        });
     };
 
 
@@ -140,7 +147,6 @@
      * Cancel the currently selected institution in the auto-suggest control
      */
     var cancelInstitutionSelect = function() {
-        console.log('Cancelling stuff');
         $('#institution-search ul.as-selections').removeClass('institution-search-selected');
         $('#institution-search ul.as-selections .as-input').focus();
         toggleSignupOptions(true);

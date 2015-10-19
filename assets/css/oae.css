@@ -132,10 +132,10 @@ nav .navbar-collapse.in .btn.btn-try {
 }
 
 header .hero {
-    background-image: url('/assets/img/hero-big.png');
+    background-image: url('/assets/img/hero.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    min-height: 750px;
+    min-height: 440px;
 }
 
 header .hero h1 {
@@ -149,23 +149,6 @@ header .hero h1 {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: left;
-}
-
-.search-group {
-    position: relative;
-    width: 100%;
-}
-
-.search-group a {
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    background-color: #2B97D5;
-    border-radius: 3px;
-    color: #FFF;
-    display: inline-block;
-    font-size: 20px;
-    padding: 5px 31px;
 }
 
 footer {
@@ -240,9 +223,6 @@ footer .icons a {
 .page-home .content {
     text-align: center
 }
-.page-home .oae-title {
-    margin: 50px 0;
-}
 
 .page-home .diagram {
     background-image: url('/assets/img/diagram/450.svg');
@@ -286,8 +266,23 @@ footer .icons a {
     }
 }
 
-.academics-working-with {
-    padding-top: 100px;
+.page-home .diagram-bottom-line-top {
+    background-image: url('/assets/img/diagram/line-top.png');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    min-height: 160px;
+}
+
+.page-home .diagram-bottom-line-bottom {
+    background-image: url('/assets/img/diagram/line-bottom.png');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    margin-top: 40px;
+    min-height: 200px;
+}
+
+.page-home .academics-working-with .btn {
+    margin-top: 50px;
 }
 
 .page-home .row-location {
@@ -1169,4 +1164,79 @@ ul.as-selections li.as-selection-item.as-ghost-item a.as-ghost-add i:hover {
 
 #institution-search input {
     min-height: 30px;
+}
+
+#institution-search .signup-as-no-results {
+    padding: 0px 100px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#institution-search .signup-as-no-results .btn {
+    width: 100%;
+}
+
+#signup-options-divider-horizontal {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#signup-options-divider-horizontal > div {
+    background-color: #FFF;
+    height: 60px;
+    margin-top: -30px;
+    position: absolute;
+    right: -25px;
+    text-align: center;
+    top: 50%;
+    width: 50px;
+}
+
+/*********************
+ ** HORIZONTAL RULE **
+ *********************/
+
+/**
+ * A custom horizontal rule component that supports having centered text. Useful for compact
+ * horizontal dividers that contain a segue into the next section.
+ *
+ *  e.g. <div class="oae-hr"><span>Segue text here</span></div>
+ *
+ * @see http://stackoverflow.com/a/22603610/2517093
+ */
+
+div.oae-hr {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+div.oae-hr > span {
+    display: inline-block;
+    position: relative;
+}
+
+div.oae-hr > span:before,
+div.oae-hr > span:after {
+    background: #ccc;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+}
+
+div.oae-hr > span:before {
+    margin-right: 15px;
+    right: 100%;
+}
+
+div.oae-hr > span:after {
+    left: 100%;
+    margin-left: 15px;
 }
