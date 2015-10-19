@@ -113,7 +113,7 @@
 
         // Add keyboard bindings to cancel the selection and re-reveals the
         // signup options
-        $('#signup-as-selection').on('click', cancelInstitutionSelect);
+        $('#signup-as-selection').on('click keydown', cancelInstitutionSelect);
         $('#signup-as-go > button').keydown(function(evt) {
             // Cancel selection if the user hits escape, delete or backspace
             // on the "Go" button
@@ -134,8 +134,6 @@
         // Show the container now that everything is initialized
         $('#signup-institution-container').show();
     };
-
-    setupAutoSuggest();
 
 
     /**
@@ -435,4 +433,5 @@
         {'name': 'Zimbabwe', 'code': 'ZW', 'icon': '/assets/img/flags/ZW.png'}
     ];
 
+    setupAutoSuggest();
 })();
