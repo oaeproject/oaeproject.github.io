@@ -36,9 +36,13 @@
             'retrieveLimit': 12,
             'neverSubmit': true,
             'scroll': 220,
-            'searchObjProps': 'alias,displayName,host,emailDomain',
+            'searchObjProps': 'query',
             'startText': 'Search and select your university',
             'retrieveComplete': function(data) {
+                var query = $('#institution-search input').val();
+                for (var i = 0; i < data.results.length; i++) {
+                    data.results[i].query = query;
+                }
                 return data.results;
             },
             'resultsHighlight': false,
