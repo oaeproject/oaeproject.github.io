@@ -119,6 +119,10 @@ nav.navbar.navbar-fixed-top {
     color: #FFF;
 }
 
+nav.navbar a.btn-try {
+    margin-top: 24px;
+}
+
 nav .navbar-nav > li > a {
     color: #FFF;
     line-height: 49px;
@@ -171,6 +175,19 @@ nav .navbar-collapse.in {
 nav .navbar-collapse.in .btn.btn-try {
     border: 0;
 }
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
 
 header .hero {
     background-image: url('/assets/img/hero.png');
