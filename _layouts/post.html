@@ -3,30 +3,30 @@ layout: default
 page_type: blog
 ---
 <div class="row">
-  <h2 class="col-xs-12 text-center">
+  <div class="col-xs-12 hidden-md hidden-lg">
       <a href="/blog" class="btn btn-default pull-left">Back to posts</a>
+  </div>
+  <h1 class="col-xs-12 col-md-12 page-title">
+      <a href="/blog" class="btn btn-default pull-left hidden-xs hidden-sm">Back to posts</a>
       {{ page.title }}
-  </h2>
+  </h1>
 </div>
 
-<div class="row">
+<div class="row post-banner">
   <div class="col-xs-12">
       <a href="{{ page.url }}">
-        <div class="banner" style="background-image: url('/assets/img/banners/oae-cloud-hosting.png')">
+        <div class="banner" style="background-image: url('{{ page.banner }}')">
           <div class="metadata">
-            <div class="author">
-              <img src="{{ page.author_image }}" alt="" class="pull-left" />
-              <div class="author-name">
-                <div>By {{ page.author }}</div>
-                <div>{{ page.date | date: "%b %-d, %Y" }}</div>
-              </div>
-            </div>
+            <div class="title">{{ page.title }}</div>
+            <img src="{{ page.author_image }}" alt="" class="pull-left" />
+            <div class="author-name">By {{ page.author }}</div>
+            <div class="author-date">{{ page.date | date: "%b %-d, %Y" }}</div>
           </div>
         </div>
       </a>
   </div>
 </div>
-<div class="row">
+<div class="row post-content">
   <div class="col-xs-12">
     {{ content }}
   </div>

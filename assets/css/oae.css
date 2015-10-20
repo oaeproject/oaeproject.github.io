@@ -18,6 +18,22 @@ h3 {
     font-size: 16px;
 }
 
+h1.page-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media (min-width: 767px) {
+    .right-sidebar {
+        padding: 0 30px;
+    }
+}
+
+.right-sidebar h2 {
+    font-size: 25px;
+    margin-top: 0;
+}
+
 a {
     color: #2997D5;
 }
@@ -160,6 +176,14 @@ header .hero h1 {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: left;
+}
+
+.error-label {
+    display: none;
+}
+
+.has-error .error-label {
+    display: block;
 }
 
 footer {
@@ -545,6 +569,7 @@ ul.logo-blocks li .logo:hover {
     font-size: 25px;
     font-weight: 100;
     line-height: 34px;
+    padding-bottom: 10px;
 }
 
 .banner .metadata .author {
@@ -556,8 +581,16 @@ ul.logo-blocks li .logo:hover {
     max-width: 37px;
 }
 
-.banner .metadata .author .author-name {
+.banner .metadata .author-name {
     font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-left: 50px;
+}
+
+.banner .metadata .author-date {
+    color: #CCCCCC;
+    font-size: 12px;
     margin-left: 50px;
 }
 
@@ -578,6 +611,11 @@ ul.logo-blocks li .logo:hover {
     margin-bottom: 20px;
 }
 
+.blogpost-short .btn-read-more {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
 .page-blog h4 {
     margin-top: 0;
 }
@@ -585,6 +623,26 @@ ul.logo-blocks li .logo:hover {
 .page-blog .btn-oae {
     margin-top: 20px;
     width: 100%;
+}
+
+
+
+.page-blog .row.post-content {
+    margin-top: 40px;
+    line-height: 24px;
+}
+
+.page-blog .row.post-content h2 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.page-blog .row.post-content h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.page-blog .row.post-content p {
+    margin-bottom: 15px;
 }
 
 .page-blog .row.comments {

@@ -2,10 +2,11 @@
 layout: default
 permalink: /join/
 page_type: join
+extra_js: join
 ---
 
 <div class="row">
-  <h2 class="col-xs-12 text-center">Get your institution, organization or business on the OAE</h2>
+  <h1 class="col-xs-12 page-title">Get your institution, organization or business on the OAE</h1>
 </div>
 
 <div class="row">
@@ -86,27 +87,27 @@ page_type: join
     <form>
       <div class="form-group">
         <label for="organisation">Your institution, organization or business</label>
-        <input type="text" class="form-control" id="organisation" placeholder="Your institution's name">
+        <input type="text" class="form-control" name="organisation" id="organisation" placeholder="Your institution's name">
       </div>
       <div class="form-group">
         <label for="website">Website URL</label>
-        <input type="text" class="form-control" id="website" placeholder="Your institution's website address">
+        <input type="text" class="form-control" id="website" name="website" placeholder="Your institution's website address">
       </div>
       <div class="form-group">
         <label for="name">Your name</label>
-        <input type="text" class="form-control" id="name" placeholder="Your full name">
+        <input type="text" class="form-control" id="name" name="name" placeholder="Your full name">
       </div>
       <div class="form-group">
         <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" placeholder="Your email address">
+        <input type="email" class="form-control" id="email" name="email" placeholder="Your email address">
       </div>
       <div class="form-group">
         <label for="position">Your position</label>
-        <input type="text" class="form-control" id="position" placeholder="Your role or position">
+        <input type="text" class="form-control" id="position" name="position" placeholder="Your role or position">
       </div>
       <div class="form-group">
         <label for="participation">Choose your level of participation</label>
-        <select id="participation" class="form-control">
+        <select id="participation" name="participation" class="form-control">
           <option value="free">For FREE</option>
           <option value="sla">For the security of an SLA</option>
           <option value="partner">For your strategic leadership</option>
@@ -114,7 +115,7 @@ page_type: join
       </div>
       <div class="form-group">
         <label for="questions">Your questions or additional/optional info</label>
-        <textarea class="form-control" id="questions" rows="8"></textarea>
+        <textarea class="form-control" id="questions" name="questions" rows="8"></textarea>
       </div>
 
       <button type="submit" class="btn btn-lg btn-oae">Get us on the network</button>

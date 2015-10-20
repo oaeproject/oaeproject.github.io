@@ -4,7 +4,7 @@ permalink: /blog/
 page_type: blog
 ---
 <div class="row">
-  <h2 class="col-xs-12 text-center">Blog</h2>
+  <h1 class="col-xs-12 page-title">Blog</h1>
 </div>
 
 <div class="row">
@@ -16,26 +16,24 @@ page_type: blog
           <div class="banner" style="background-image: url('{{ post.banner }}')">
             <div class="metadata">
               <div class="title">{{ post.title }}</div>
-              <div class="author">
-                <img src="{{ post.author_image }}" alt="" class="pull-left" />
-                <div class="author-name">
-                  <div>By {{ post.author }}</div>
-                  <div>{{ post.date | date: "%b %-d, %Y" }}</div>
-                </div>
-              </div>
+              <img src="{{ post.author_image }}" alt="" class="pull-left" />
+              <div class="author-name">By {{ post.author }}</div>
+              <div class="author-date">{{ post.date | date: "%b %-d, %Y" }}</div>
             </div>
           </div>
         </a>
 
         {{ post.excerpt }}
 
-        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-default">Read more</a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-default btn-read-more">Read more</a>
       </div>
     {% endfor %}
   </div>
 
-  <div class="col-xs-12 col-sm-4 text-center">
-      <h4 class="">Join thousands of institutions on the OAE</h4>
+  <div class="col-xs-12 col-sm-4">
+    <div class="right-sidebar">
+      <h2>Join thousands of institutions on the OAE</h2>
       <a href="/join" class="btn btn-lg btn-oae">Join the network</a>
+    </div>
   </div>
 </div>
