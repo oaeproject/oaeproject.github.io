@@ -236,6 +236,7 @@ footer .top-row {
 footer .bottom-row {
     color: #999999;
     font-size: 11px;
+    line-height: 26px;
     margin: 0 30px;
 }
 
@@ -277,8 +278,8 @@ footer .icons a {
     background-image: url('/assets/img/diagram/450.svg');
     background-position: top center;
     background-repeat: no-repeat;
-    height: 500px;
-    padding-top: 275px;
+    height: 570px;
+    padding-top: 289px;
 }
 
 .page-home .row.top {
@@ -287,9 +288,14 @@ footer .icons a {
 
 .page-home .row.bottom h3 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
+    .page-home .diagram {
+        height: 500px;
+    }
+
     .page-home .diagram h2 {
         display: inline-block;
         width: 190px;
@@ -299,19 +305,23 @@ footer .icons a {
 @media (min-width: 768px) and (max-width: 992px) {
     .page-home .diagram {
         background-image: url('/assets/img/diagram/640.svg');
+        height: 500px;
+        padding-top: 284px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .page-home .diagram {
         background-image: url('/assets/img/diagram/800.svg');
+        height: 500px;
+        padding-top: 284px;
     }
 }
 
 @media (min-width: 1200px) {
     .page-home .diagram {
         background-image: url('/assets/img/diagram/large.svg');
-        padding-top: 360px;
+        padding-top: 367px;
     }
 }
 
@@ -326,16 +336,20 @@ footer .icons a {
     background-image: url('/assets/img/diagram/line-bottom.png');
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    margin-top: 40px;
-    min-height: 200px;
+    margin-top: 20px;
+    padding-bottom: 220px;
 }
 
 .page-home .diagram-bottom-line-bottom .btn {
     width: 100%;
 }
 
+.page-home .diagram-bottom-line-bottom label {
+    padding: 5px 0 0 15px;
+}
+
 .page-home .academics-working-with .btn {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .page-home .row-location {
@@ -351,9 +365,10 @@ ul.logo-blocks {
 
 ul.logo-blocks li {
     float: left;
-    list-style-type: none;
-    width: 25%;
     height: 187px;
+    list-style-type: none;
+    padding: 5px 5px 0 0;
+    width: 25%;
 }
 
 ul.logo-blocks li img {
@@ -365,7 +380,6 @@ ul.logo-blocks li .logo {
     background-color: #E8E8E4;
     line-height: 187px;
     height: 100%;
-    margin-right: 5px;
     padding: 0 20px;
 }
 
@@ -389,7 +403,7 @@ ul.logo-blocks li .logo:hover {
 
 .case-study .modal-dialog {
     width: 95%;
-    max-width: 824px;
+    max-width: 750px;
 }
 
 .case-study .modal-header {
@@ -408,8 +422,10 @@ ul.logo-blocks li .logo:hover {
     text-align: left;
 }
 
-.case-study .modal-body .container-fluid {
-    padding: 0;
+@media (min-width: 767px) {
+    .case-study .modal-body .container-fluid {
+        padding: 0 25px;
+    }
 }
 
 .case-study .modal-body img {
@@ -420,12 +436,19 @@ ul.logo-blocks li .logo:hover {
     line-height: 26px;
 }
 
+@media (min-width: 767px) {
+    .case-study .modal-body .modal-sidebar {
+        margin-left: 20px;
+    }
+}
+
 .case-study .modal-body blockquote {
     border-left: 0;
     color: #333;
     font-size: 22px;
     font-weight: 100;
     line-height: 34px;
+    padding: 0;
 }
 
 .case-study .modal-body blockquote cite::before {
@@ -1157,7 +1180,7 @@ ul.as-selections li.as-selection-item.as-ghost-item a.as-ghost-add i:hover {
 }
 
 #institution-search .as-selections .as-input {
-    font-size: 14px;
+    font-size: 17px;
 }
 
 #institution-search .as-selections .as-selection-item {
