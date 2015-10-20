@@ -28,7 +28,7 @@ $(document).on('ready', function() {
                 data['questions']
             ].join('\n');
             $.ajax({
-                'url': 'http://formspree.io/simon@fronteer.io',
+                'url': 'http://formspree.io/oae-contact@apereo.org',
                 'method': 'POST',
                 'data': {
                     'name': data['name'],
