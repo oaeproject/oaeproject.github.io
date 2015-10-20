@@ -71,6 +71,20 @@ label {
     padding: 6px 50px;
 }
 
+.well {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #E9E9E5;
+    line-height: 22px;
+}
+
+.well span.title {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 header {
     background-color: #2997D5;
     background-image: url('/assets/img/header-bg.png');
@@ -352,6 +366,7 @@ ul.logo-blocks li .logo {
     line-height: 187px;
     height: 100%;
     margin-right: 5px;
+    padding: 0 20px;
 }
 
 ul.logo-blocks li .logo:hover {
@@ -466,6 +481,7 @@ ul.logo-blocks li .logo:hover {
     border-radius: 50px 0px 0px 50px;
     -moz-border-radius: 50px 0px 0px 50px;
     -webkit-border-radius: 50px 0px 0px 50px;
+    font-size: 20px;
     padding: 15px 25px;
     text-align: left;
 }
@@ -477,7 +493,7 @@ ul.logo-blocks li .logo:hover {
 .page-join .content h3.rounded.darkblue {
     background-color: #0A6096;
     border: 0px solid #0A6096;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .page-join .content h3.rounded.black {
@@ -492,7 +508,7 @@ ul.logo-blocks li .logo:hover {
 
 .page-join .content h4 {
     font-size: 24px;
-    line-height: 41px;
+    line-height: 35px;
 }
 
 
