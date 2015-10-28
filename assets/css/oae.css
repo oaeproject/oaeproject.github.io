@@ -71,6 +71,12 @@ label {
     padding: 6px 50px;
 }
 
+.btn-group-lg > .btn,
+.btn-lg {
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+
 .well {
     border: 0;
     border-radius: 0;
@@ -194,17 +200,31 @@ header .hero {
     background-repeat: no-repeat;
     background-position: bottom;
     min-height: 440px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 991px) {
+    header .hero {
+        background-size: 100%;
+        min-height: 375px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .hero {
+        min-height: 300px;
+    }
 }
 
 header .hero h1 {
-    margin-top: 50px;
     padding: 0 5px;
 }
 
 .content {
     line-height: 26px;
     max-width: 850px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 40px;
     text-align: left;
 }
@@ -216,6 +236,8 @@ header .hero h1 {
 .has-error .error-label {
     display: block;
 }
+
+/* Footer */
 
 footer {
     background-color: #222222;
@@ -250,13 +272,16 @@ footer .top-row {
     border-bottom: 1px solid #333333;
     margin: 0 30px;
 }
+
+footer ul.footer-nav {
+    text-align: right;
+}
+
 footer .bottom-row {
     color: #999999;
     font-size: 11px;
-    line-height: 26px;
     margin: 0 30px;
 }
-
 
 footer .oae-logo {
     max-width: 57px;
@@ -270,37 +295,68 @@ footer .icons a {
     margin-left: 40px;
 }
 
-
 @media (max-width: 767px) {
-    footer div.col-xs-12 {
-        margin-top: 10px;
-        text-align: left;
+    footer {
+        text-align: center;
+    }
+    footer .row {
+        padding: 30px 0px;
+    }
+    footer .footer-try {
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     footer ul li {
+        padding-left: 0;
+    }
+    footer ul.footer-nav {
+        text-align: center;
+    }
+    footer ul.footer-nav li {
         display: block;
-        padding: 10px 0;
+        margin-top: 10px;
+    }
+    footer .footer-apereo span {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    footer .icons {
+        text-align: center;
     }
     footer .icons a {
-        margin-left: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 479px) {
+    footer .footer-logo img {
+        padding-right: 0;
+    }
+    footer .footer-logo span {
+        display: block;
+        margin-top: 10px;
     }
 }
 
 /* Home page */
 
+.page-home .navbar-toggle {
+    margin-top: 25px;
+}
+
 .page-home .content {
     text-align: center
 }
 
-.page-home .diagram {
-    background-image: url('/assets/img/diagram/450.svg');
-    background-position: top center;
-    background-repeat: no-repeat;
-    height: 570px;
-    padding-top: 289px;
+.page-home .row.top {
+    font-size: 16px;
+    margin-top: 20px;
 }
 
-.page-home .row.top {
-    font-size: 16px
+.page-home .row.top > div:last-child {
+    margin-bottom: 20px;
 }
 
 .page-home .row.bottom h3 {
@@ -309,36 +365,34 @@ footer .icons a {
 }
 
 @media (max-width: 768px) {
-    .page-home .diagram {
-        height: 500px;
-    }
-
     .page-home .diagram h2 {
         display: inline-block;
         width: 190px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+.page-home .diagram {
+    background-image: url('/assets/img/diagram/small.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 280px auto;
+    height: 271px;
+    padding-top: 106px;
+}
+
+@media (min-width: 400px) {
     .page-home .diagram {
-        background-image: url('/assets/img/diagram/640.svg');
-        height: 500px;
-        padding-top: 284px;
+        background-size: auto;
+        height: 356px;
+        padding-top: 155px;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-    .page-home .diagram {
-        background-image: url('/assets/img/diagram/800.svg');
-        height: 500px;
-        padding-top: 284px;
-    }
-}
-
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
     .page-home .diagram {
         background-image: url('/assets/img/diagram/large.svg');
-        padding-top: 367px;
+        height: 540px;
+        padding-top: 344px;
     }
 }
 
@@ -346,7 +400,13 @@ footer .icons a {
     background-image: url('/assets/img/diagram/line-top.png');
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    min-height: 160px;
+    min-height: 190px;
+}
+
+@media (min-width: 768px) {
+    .page-home .diagram-bottom-line-to {
+        min-height: 160px;
+    }
 }
 
 .page-home .diagram-bottom-line-bottom {
@@ -354,7 +414,21 @@ footer .icons a {
     background-repeat: no-repeat;
     background-position: 50% 100%;
     margin-top: 20px;
-    padding-bottom: 220px;
+    padding-bottom: 143px;
+}
+
+@media (min-width: 768px) {
+    .page-home .diagram-bottom-line-bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-home .diagram-bottom-line-bottom {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 }
 
 .page-home .diagram-bottom-line-bottom .btn {
@@ -365,15 +439,18 @@ footer .icons a {
     padding: 5px 0 0 15px;
 }
 
-.page-home .academics-working-with .btn {
-    margin-top: 15px;
+.page-home h2 {
+    line-height: 1.3;
 }
 
 .page-home .row-location {
-    color: #777777;
-    margin-top: 50px;
     margin-bottom: 20px;
 }
+
+.page-home .row-location h2 {
+    margin-bottom: 20px;
+}
+
 ul.logo-blocks {
     list-style: none;
     margin-top: 10px;
@@ -400,10 +477,10 @@ ul.logo-blocks li .logo {
     padding: 0 20px;
 }
 
-ul.logo-blocks li .logo:hover {
+/*ul.logo-blocks li .logo:hover {
     background-color: #dddddd;
     cursor: pointer;
-}
+}*/
 @media (max-width: 767px) {
     .row-location ul li {
         margin-top: 10px;
@@ -1179,13 +1256,10 @@ ul.as-selections li.as-selection-item.as-ghost-item a.as-ghost-add i:hover {
 /* signup overrides */
 
 #institution-search {
+    margin-bottom: 20px;
     /* This `min-width` is needed to ensure the item doesn't expand beyond the
        bounds of its parent when the tenant name is extremely long */
     min-width: 0;
-    width: 100%;
-}
-
-#institution-search > label {
     width: 100%;
 }
 
