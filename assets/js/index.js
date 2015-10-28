@@ -137,7 +137,7 @@
             return false;
         });
         $('#signup-as-no-results-join').on('click', function() {
-            window.location = '/join';
+            window.location = '/contact';
             return false;
         });
     };

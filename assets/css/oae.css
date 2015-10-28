@@ -1369,10 +1369,9 @@ ul.as-selections li.as-selection-item.as-ghost-item a.as-ghost-add i:hover {
 }
 
 #institution-search .signup-as-no-results {
-    padding: 0px 100px;
-    padding-bottom: 20px;
+    margin: 10px auto 20px;
+    max-width: 400px;
     text-align: center;
-
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
