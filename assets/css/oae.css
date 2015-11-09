@@ -704,13 +704,9 @@ ul.logo-blocks li .logo {
     padding-bottom: 10px;
 }
 
-.banner .metadata .author {
-    line-height: 22px;
-    margin-top: 15px;
-}
-.banner .metadata .author img {
-    max-height: 37px;
-    max-width: 37px;
+.banner .metadata img {
+    height: 37px;
+    width: 37px;
 }
 
 .banner .metadata .author-name {
@@ -775,6 +771,10 @@ ul.logo-blocks li .logo {
 
 .page-blog .row.post-content p {
     margin-bottom: 15px;
+}
+
+.page-blog .row.post-content img {
+    max-width: 100%;
 }
 
 .page-blog .row.comments {
