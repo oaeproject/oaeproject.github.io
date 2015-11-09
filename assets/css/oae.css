@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -167,11 +167,11 @@ nav .navbar-toggle .icon-bar {
 }
 
 nav .navbar-collapse.collapsing {
-  -webkit-transition: height 0.01s;
-  -moz-transition: height 0.01s;
-  -ms-transition: height 0.01s;
-  -o-transition: height 0.01s;
-  transition: height 0.01s;
+    -webkit-transition: height 0.01s;
+    -moz-transition: height 0.01s;
+    -ms-transition: height 0.01s;
+    -o-transition: height 0.01s;
+    transition: height 0.01s;
 }
 
 nav .navbar-collapse.in {

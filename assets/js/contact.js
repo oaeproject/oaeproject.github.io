@@ -34,10 +34,10 @@ $(document).on('ready', function() {
                     '_subject': 'apereo.org contact form submission from ' + name
                 },
                 'dataType': 'json',
-                success: function(data) {
+                'success': function(data) {
                     alert('We have received your message and will be in touch shortly!');
                 },
-                error: function(err) {
+                'error': function(err) {
                     alert('Oh no, we couldn\'t send your message, you can always try sending an email to oae-contact@apereo.org');
                 }
             });

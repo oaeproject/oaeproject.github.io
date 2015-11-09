@@ -1,33 +1,33 @@
 (function() {
 
     $.templates('signup-as-tenant', [
-      '<div class="signup-tenant-item">',
-          '<div class="signup-tenant-item-inner">',
-              '{{if tenant.countryFlag}}',
-                  '<div class="signup-tenant-flag">',
-                      '<img src="{{>tenant.countryFlag}}" alt="{{>tenant.countryName}}"/>',
-                  '</div>',
-              '{{/if}}',
-              '<div class="signup-tenant-name">',
-                  '{{:tenant.displayName}}',
-              '</div>',
-          '</div>',
-      '</div>'].join('\n'));
+        '<div class="signup-tenant-item">',
+            '<div class="signup-tenant-item-inner">',
+                '{{if tenant.countryFlag}}',
+                    '<div class="signup-tenant-flag">',
+                        '<img src="{{>tenant.countryFlag}}" alt="{{>tenant.countryName}}"/>',
+                    '</div>',
+                '{{/if}}',
+                '<div class="signup-tenant-name">',
+                    '{{:tenant.displayName}}',
+                '</div>',
+            '</div>',
+        '</div>'].join('\n'));
 
     $.templates('signup-as-actions', [
-      '<li id="signup-as-selection" tabindex="0"></li>',
-      '<li id="signup-as-search" class="signup-as-action">',
-          '<i class="fa fa-search"></i>',
-      '</li>',
-      '<li id="signup-as-go" class="signup-as-action">',
-          '<button class="btn btn-primary">Go</button>',
-      '</li>'].join('\n'));
+        '<li id="signup-as-selection" tabindex="0"></li>',
+        '<li id="signup-as-search" class="signup-as-action">',
+            '<i class="fa fa-search"></i>',
+        '</li>',
+        '<li id="signup-as-go" class="signup-as-action">',
+            '<button class="btn btn-primary">Go</button>',
+        '</li>'].join('\n'));
 
     $.templates('signup-as-selection', [
-      '{{if tenant.countryFlag}}',
-          '<img src="{{>tenant.countryFlag}}" alt="{{>tenant.countryName}}"/>',
-      '{{/if}}',
-      '<div class="oae-threedots">{{>tenant.displayName}}</div>'].join('\n'));
+        '{{if tenant.countryFlag}}',
+            '<img src="{{>tenant.countryFlag}}" alt="{{>tenant.countryName}}"/>',
+        '{{/if}}',
+        '<div class="oae-threedots">{{>tenant.displayName}}</div>'].join('\n'));
 
     $.templates('no-results', [
         '<div class="signup-as-no-results">',

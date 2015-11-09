@@ -16,7 +16,7 @@ Commit the changes you'd like to make to the master branch, push them to the ori
 
 ### Adding a blogpost
 
-All blogposts are stored under the `_posts` directory. Simply add a new file (ensure it's name follows the YYY-MM-DD-simple-title.markdown format) that has the following information in it:
+All blogposts are stored under the `_posts` directory. Simply add a new file (ensure its name follows the YYY-MM-DD-simple-title.markdown format) that has the following information in it:
 ```
 ---
 layout:       post
