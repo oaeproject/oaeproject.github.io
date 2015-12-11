@@ -8,7 +8,7 @@ All content is statically generated through [Jekyll](https://jekyllrb.com) and h
 
 ### Local development
 
-Install the jekyll gem (`gem install jekyll`) and run `jekyll serve` from the root directory of this repository. This will fire up a local HTTP server and serve the website at [http://localhost:4000](http://localhost:4000). Every time you edit a page or blogpost, jekyll will regenerate the appropriate files.
+Install the jekyll and jekyll-feed gems (`gem install jekyll; gem install jekyll-feed`) and run `jekyll serve` from the root directory of this repository. This will fire up a local HTTP server and serve the website at [http://localhost:4000](http://localhost:4000). Every time you edit a page or blogpost, jekyll will regenerate the appropriate files.
 
 ### Updating the live website
 
