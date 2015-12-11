@@ -14,7 +14,7 @@ banner: /assets/img/banners/reintermediation.jpg
 <!--more-->
 <p>
   The Open Academic Environment software at the heart of *Unity integrates with most of the commonly used authentication strategies, including open standards
-  such as <strong>Shibbolet</strong>. Using these different strategies we’ve been able to establish single sign on with almost half our 20,000 tenancies.
+  such as <strong>Shibboleth</strong>. Using these different strategies we’ve been able to establish single sign on with almost half our 20,000 tenancies.
 </p>
 <p>
   The benefits are real. You don’t have to remember another username and password; instead, you can sign into *Unity with your campus credentials. And so can
