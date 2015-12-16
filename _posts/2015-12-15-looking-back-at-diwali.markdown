@@ -37,9 +37,9 @@ banner: /assets/img/banners/looking-back-at-diwali.jpg
 <p>
     Using the combination of social media, active global participants, and the collaborative and interactive nature of OAE, we
     extended the week-long Diwali event past the grounds of Marist College. We were able to reach friends and family elsewhere
-    by spreading a diverse, culture-rich experience with those around us…even if they were half way around the word!
+    by spreading a diverse, culture-rich experience with those around us ... even if they were half way around the word!
 </p>
 <p>
-    It was clearly evident just how much this meant to the students, who worked countless hours, day in and day out, to make it a
-    success. Many of them were amazed at how much it felt like home.
+    It was clearly evident just how much this meant to the students, who worked countless hours, day in and day out, to make it
+    a success. Many of them were amazed at how much it felt like home.
 </p>
