@@ -22,8 +22,8 @@
             <itunes:author>Apereo OAE</itunes:author>
             <itunes:subtitle>Nicolaas Matthijs talks to us about building IT innovation within a higher education context</itunes:subtitle>
             <itunes:summary>We celebrate our inaugural episode by talking to Nicolaas Matthijs, the Project Lead for the Apereo Foundation’s Open Academic Environment Project and an entrepreneur, Full Stack developer, Open Source contributor and Educational Technology enthusiast with significant experience on all sides of the EdTech fence. He is someone who continually pushes the barriers when it comes to technology for higher education. Nicolaas shares his perspectives on the challenges, innovations and where he sees technology best serving the eco-system of learning, research and collaboration for Universities in the modern world. Follow Nicolaas at @nicolaasm and join the conversation through oaeproject.org or @OAEProject on Twitter.</itunes:summary>
-            <enclosure url="http://oaeproject.org/_podcast/oae-podcast-ep01.mp3" length="325252" type="mp3" />
-            <guid>http://oaeproject.org/_podcast/oae-podcast-ep01.mp3</guid>
+            <enclosure url="http://oaeproject.org/podcast/oae-podcast-ep01.mp3" length="325252" type="mp3" />
+            <guid>http://oaeproject.org/podcast/oae-podcast-ep01.mp3</guid>
             <pubDate>Fri, 26 Feb 2016 15:00:00 GMT</pubDate>
             <itunes:duration>00:28:14</itunes:duration>
         </item>
