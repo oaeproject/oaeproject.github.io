@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>Open Academic Environment Podcast</title>
         <link>http://oaeproject.org/</link>
@@ -15,18 +15,19 @@
         </itunes:owner>
         <itunes:image href="http://oaeproject.org/assets/img/podcast/oaeproject-podcast-art.png" />
         <itunes:category text="Education">
-            <itunes:category text="Educational Technology" />
+            <itunes:category text="Education Technology" />
         </itunes:category>
         <item>
             <title>Innovation within Institutional IT</title>
             <itunes:author>Apereo OAE</itunes:author>
             <itunes:subtitle>Nicolaas Matthijs talks to us about building IT innovation within a higher education context</itunes:subtitle>
             <itunes:summary>We celebrate our inaugural episode by talking to Nicolaas Matthijs, the Project Lead for the Apereo Foundation’s Open Academic Environment Project and an entrepreneur, Full Stack developer, Open Source contributor and Educational Technology enthusiast with significant experience on all sides of the EdTech fence. He is someone who continually pushes the barriers when it comes to technology for higher education. Nicolaas shares his perspectives on the challenges, innovations and where he sees technology best serving the eco-system of learning, research and collaboration for Universities in the modern world. Follow Nicolaas at @nicolaasm and join the conversation through oaeproject.org or @OAEProject on Twitter.</itunes:summary>
-            <enclosure url="http://oaeproject.org/podcast/oae-podcast-ep01.mp3" length="325252" type="mp3" />
+            <enclosure url="http://oaeproject.org/podcast/oae-podcast-ep01.mp3" length="325252" type="audio/mp3" />
             <guid>http://oaeproject.org/podcast/oae-podcast-ep01.mp3</guid>
             <pubDate>Fri, 26 Feb 2016 15:00:00 GMT</pubDate>
             <itunes:duration>00:28:14</itunes:duration>
         </item>
         <itunes:explicit>clean</itunes:explicit>
+        <atom:link href="http://oaeproject.org/podcast/podcast.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
