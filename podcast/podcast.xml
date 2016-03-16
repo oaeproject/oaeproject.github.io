@@ -9,6 +9,8 @@
         <itunes:author>Apereo OAE</itunes:author>
         <itunes:summary>Higher Ed interview series and discussion panel with authority figures from educational technology, academic research, university management, policy makers to educators and instructors</itunes:summary>
         <description>The OAE Podcast is an interview series and discussion panel where we talk to authority figures within higher education about technology, academic research, university management, policy makers to educators and instructors</description>
+        <atom:link href="http://oaeproject.org/podcast/podcast.xml" rel="self" type="application/rss+xml" />
+        <itunes:explicit>clean</itunes:explicit>
         <itunes:owner>
             <itunes:name>OAE Project</itunes:name>
             <itunes:email>oaeproject@gmail.com</itunes:email>
@@ -27,7 +29,5 @@
             <pubDate>Fri, 26 Feb 2016 15:00:00 GMT</pubDate>
             <itunes:duration>00:28:14</itunes:duration>
         </item>
-        <itunes:explicit>clean</itunes:explicit>
-        <atom:link href="http://oaeproject.org/podcast/podcast.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
