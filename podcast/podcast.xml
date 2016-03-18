@@ -17,7 +17,7 @@
         </itunes:owner>
         <itunes:image href="http://oaeproject.org/assets/img/podcast/oaeproject-podcast-art.png" />
         <itunes:category text="Education">
-            <itunes:category text="Education Technology" />
+            <itunes:category text="Educational Technology" />
         </itunes:category>
         <item>
             <title>Innovation within Institutional IT</title>
