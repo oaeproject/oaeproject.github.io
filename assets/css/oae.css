@@ -753,29 +753,30 @@ ul.logo-blocks li .logo {
     width: 100%;
 }
 
-.page-blog .row.post-content {
+.post-container .row.post-content {
     margin-top: 40px;
     line-height: 24px;
 }
 
-.page-blog .row.post-content h2 {
+.post-container .row.post-content h2 {
     font-size: 17px;
     font-weight: 600;
 }
-.page-blog .row.post-content h3 {
+
+.post-container .row.post-content h3 {
     font-size: 14px;
     font-weight: 600;
 }
 
-.page-blog .row.post-content p {
+.post-container .row.post-content p {
     margin-bottom: 15px;
 }
 
-.page-blog .row.post-content img {
+.post-container .row.post-content img {
     max-width: 100%;
 }
 
-.page-blog .row.comments {
+.post-container .row.comments {
     margin-top: 40px;
 }
 
