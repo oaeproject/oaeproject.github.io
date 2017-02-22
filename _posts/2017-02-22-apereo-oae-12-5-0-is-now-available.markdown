@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New release: Apereo OAE 12.5.0!"
-date:   2017-02-20 17:00:00
+date:   2017-02-22 17:00:00
 author_image: /assets/img/authors/salla.png
 author: Salla Karppinen
 ---
