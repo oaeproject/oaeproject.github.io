@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New release: Apereo OAE 12.5.0!"
-date:   2017-02-22 17:00:00
+date:   2017-02-23 13:00:00
 author_image: /assets/img/authors/salla.png
 author: Salla Karppinen
 ---
@@ -14,7 +14,7 @@ author: Salla Karppinen
   <h3>Activity feed and email bug fixes</h3><p>A bug where some user thumbnails occasionally caused a 401 error in the activity feed was fixed, as was an error where some characters were rendering incorrectly in emails.</p>
   <h3>Group bug fixes</h3><p>Deleted users will no longer have links to their homepages in groups. Additionally, a bug where a user's name would sometimes not be displayed correctly in a group's members list was fixed.</p>
 <h2>Try it out</h2>
-  <p>OAE 12.5.0 can be experienced on the project's QA server at <a href="http://oae.oae-qa0.oaeproject.org" target="_blank">http://oae.oae-qa0.oaeproject.org</a>. It is worth noting that this server is actively used for testing and will be wiped and redeployed every night.</p>
+  <p>OAE 12.5.0 can be experienced on the project's QA server at <a href="https://oae.oae-qa0.oaeproject.org" target="_blank">https://oae.oae-qa0.oaeproject.org</a>. It is worth noting that this server is actively used for testing and may be wiped and redeployed every night.</p>
   <p>The source code has been tagged with version number 12.5.0 and can be downloaded from the following repositories:</p>
   <p>Back-end: <a href="https://github.com/oaeproject/Hilary/tree/12.5.0" target="_blank">https://github.com/oaeproject/Hilary/tree/12.5.0</a></p>
   <p>Front-end: <a href="https://github.com/oaeproject/3akai-ux/tree/12.5.0" target="_blank">https://github.com/oaeproject/3akai-ux/tree/12.5.0</a></p>
