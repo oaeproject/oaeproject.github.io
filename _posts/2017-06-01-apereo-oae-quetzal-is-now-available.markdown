@@ -15,7 +15,7 @@ banner: /assets/img/banners/oae-quetzal.png
 <p><img style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px; margin-top: 20px;" src="https://research.unity.ac/api/content/c:rr:HyQ6JLTWZ/download" alt="" width="700" height="384" /></p>
 <h3>Videoconferencing with Jitsi</h3>
 <p>Another important feature introduced to OAE in Quetzal is the ability to have face-to-face meetings using the embedded videoconferencing tool, Jitsi. Jitsi is an open source project that allows users to talk to each other either one to one or in groups.</p>
-<p>In OAE, it could have a number of uses - maybe a brainstorming sessions among members of a globally distributed research team, or holding office hours for students on a MOOC. Jitsi can ve set up for all the tenancies under an OAE instance, or on a tenancy by tenancy basis.</p>
+<p>In OAE, it could have a number of uses - maybe a brainstorming sessions among members of a globally distributed research team, or holding office hours for students on a MOOC. Jitsi can be set up for all the tenancies under an OAE instance, or on a tenancy by tenancy basis.</p>
 <p><img style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px; margin-top: 20px;" src="https://research.unity.ac/api/content/c:rr:H1phJITWZ/download" alt="" width="800" height="166" />&nbsp;</p>
 <h3>Password recovery</h3>
 <p>This feature that has been widely requested by users: the ability to reset their password if they have forgotten it. Now a user in such a predicament can enter in their username, and they will receive an email with a one-time link to reset their password. Many thanks to <a href="https://github.com/stevenxzhou" target="_blank">Steven Zhou</a> for his work on this feature!</p>
