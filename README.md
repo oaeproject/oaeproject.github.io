@@ -1,4 +1,4 @@
-# The oaeproject website
+# The OAE Project website
 
 This repository contains all the logic that is driving the [OAE project's website](http://oaeproject.org).
 
